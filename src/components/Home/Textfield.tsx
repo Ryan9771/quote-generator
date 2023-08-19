@@ -1,6 +1,6 @@
 import getStyles from "../../Style";
 import { useCallback, useMemo, useState } from "react";
-import { ReactTags, Tag } from "react-tag-autocomplete";
+import { ReactTags, Tag, ClassNames } from "react-tag-autocomplete";
 
 function TextField() {
   const [selected, setSelected] = useState<Tag[]>([]);
@@ -32,12 +32,18 @@ function TextField() {
 
   return (
     <ReactTags
-      labelText="Enter an emotion"
+      labelText=""
+      placeholderText="Enter an emotion"
       suggestions={suggestions}
       selected={selected}
       onAdd={onAdd}
       onDelete={onDelete}
       noOptionsText="No emotions found"
+      collapseOnSelect={true}
+      activateFirstOption={true}
+      //   classNames={{
+
+      //   }}
     />
   );
 }
