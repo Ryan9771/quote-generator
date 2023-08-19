@@ -1,11 +1,13 @@
 import getStyles from "../Style";
 import mom from "../assets/images/mom.svg";
+import TextField from "../components/Home/Textfield";
 
 function Home() {
   return (
     <div className={getStyles(styles, "ctn")}>
       <img src={mom} className={getStyles(styles, "momIcon")} alt="mom" />
       <p className={getStyles(styles, "header")}>Hey, how are you feeling?</p>
+      <TextField />
     </div>
   );
 }
@@ -22,7 +24,7 @@ const styles = {
     "w-full",
     "h-full",
   ],
-  momIcon: ["h-[180px]"],
+  momIcon: ["h-[170px]"],
   header: ["text-xl", "font-medium"],
 };
 
