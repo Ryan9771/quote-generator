@@ -4,6 +4,7 @@ import { ReactTags, Tag, ClassNames } from "react-tag-autocomplete";
 
 function TextField() {
   const [selected, setSelected] = useState<Tag[]>([]);
+
   const suggestions = useMemo(
     () => [
       { value: 1, label: "happy" },
@@ -16,7 +17,6 @@ function TextField() {
 
   const onAdd = useCallback(
     (tag: any) => {
-      console.log(tag);
       setSelected([tag]);
     },
     [selected]
@@ -24,7 +24,6 @@ function TextField() {
 
   const onDelete = useCallback(
     (tag: any) => {
-      console.log(tag);
       setSelected([]);
     },
     [selected]
@@ -32,8 +31,7 @@ function TextField() {
 
   return (
     <ReactTags
-      labelText=""
-      placeholderText="Enter an emotion"
+      placeholderText={selected.length > 0 ? "" : "Enter an emotion"}
       suggestions={suggestions}
       selected={selected}
       onAdd={onAdd}
@@ -41,9 +39,7 @@ function TextField() {
       noOptionsText="No emotions found"
       collapseOnSelect={true}
       activateFirstOption={true}
-      //   classNames={{
-
-      //   }}
+      allowBackspace={true}
     />
   );
 }
