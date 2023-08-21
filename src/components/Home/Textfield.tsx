@@ -1,6 +1,5 @@
-import getStyles from "../../Style";
 import { useCallback, useMemo, useState } from "react";
-import { ReactTags, Tag, ClassNames } from "react-tag-autocomplete";
+import { ReactTags, Tag } from "react-tag-autocomplete";
 
 function TextField() {
   const [selected, setSelected] = useState<Tag[]>([]);
@@ -22,12 +21,9 @@ function TextField() {
     [selected]
   );
 
-  const onDelete = useCallback(
-    (tag: any) => {
-      setSelected([]);
-    },
-    [selected]
-  );
+  const onDelete = useCallback(() => {
+    setSelected([]);
+  }, [selected]);
 
   return (
     <ReactTags
