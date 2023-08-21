@@ -23,6 +23,7 @@
   .react-tags {
     font-size: 1rem;
     width: 13rem;
+    height: 3rem;
   }
 }
 
@@ -109,6 +110,8 @@
   font-size: inherit;
   line-height: inherit;
   color: white;
+  caret-color: transparent;
+
 }
 
 .react-tags__combobox-input::placeholder {

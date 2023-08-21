@@ -1,6 +1,6 @@
 import getStyles from "../Style";
 import mom from "../assets/images/mom.svg";
-import TextField from "../components/Home/Textfield";
+import TextFieldGroup from "../components/Home/TextfieldGroup";
 
 function Home() {
   return (
@@ -9,7 +9,7 @@ function Home() {
         <img src={mom} className={getStyles(styles, "momIcon")} alt="mom" />
         <p className={getStyles(styles, "header")}>Hey, how are you feeling?</p>
       </div>
-      <TextField />
+      <TextFieldGroup />
     </div>
   );
 }
