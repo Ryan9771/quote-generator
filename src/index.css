@@ -5,26 +5,18 @@
 .react-tags {
   position: relative;
   padding: 0.5rem 2rem;
-  /* border: 2px solid #afb8c1; */
   border-radius: 6px;
   background: #47958D;
   /* shared font styles */
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.2;
   /* clicking anywhere will focus the input */
   cursor: text;
-  width: 12rem;
+  width: 13rem;
+  height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media (min-width: 640px) {
-  .react-tags {
-    font-size: 1rem;
-    width: 13rem;
-    height: 3rem;
-  }
 }
 
 .react-tags.is-disabled {

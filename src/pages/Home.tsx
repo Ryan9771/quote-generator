@@ -21,7 +21,7 @@ const styles = {
     "flex-col",
     "justify-center",
     "items-center",
-    "gap-10",
+    "gap-14",
     "sm:gap-[55px]",
     "w-full",
     "h-full",

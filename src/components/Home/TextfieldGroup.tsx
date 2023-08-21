@@ -50,11 +50,12 @@ function TextFieldGroup() {
 }
 
 const styles = {
-  ctn: ["sm:relative", "flex", "flex-col", "items-center", "gap-4"],
+  ctn: ["relative"],
   arrowIcon: ["h-5", "w-5", "fill-white"],
   arrowIconDiv: [
     "bg-darkerGreen",
-    "p-2",
+    "p-1",
+    "sm:p-2",
     "rounded-full",
     "cursor-pointer",
     "hover:scale-105",
@@ -63,9 +64,11 @@ const styles = {
     "flex",
     "justify-center",
     "items-center",
-    "sm:absolute",
+    "absolute",
     "sm:right-[-70px]",
     "sm:top-1",
+    "bottom-[-60px]",
+    "left-20",
   ],
 };
 
