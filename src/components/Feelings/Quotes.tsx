@@ -53,7 +53,7 @@ const styles = {
     "flex-col",
     "items-center",
     // "md:pt-32",
-    // "pb-4",
+    "pb-4",
     "gap-10",
     "md:gap-18",
     "md:h-5/6",

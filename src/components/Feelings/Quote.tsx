@@ -25,7 +25,7 @@ const styles = {
     "px-3",
     "py-2",
     "rounded-lg",
-    "shadow-sm",
+    "shadow-md",
     "font-normal",
     "text-center",
     "md:snap-start",
