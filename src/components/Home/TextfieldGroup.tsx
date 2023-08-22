@@ -7,6 +7,7 @@ import { HashLink } from "react-router-hash-link";
 function TextFieldGroup() {
   const [selected, setSelected] = useState<Tag[]>([]);
 
+  // TODO: Put this in a separate file
   const suggestions = useMemo(
     () => [
       { value: 1, label: "happy" },

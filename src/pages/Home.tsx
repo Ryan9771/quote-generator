@@ -16,7 +16,6 @@ function Home() {
 
 const styles = {
   ctn: [
-    "bg-paper",
     "flex",
     "flex-col",
     "justify-center",
