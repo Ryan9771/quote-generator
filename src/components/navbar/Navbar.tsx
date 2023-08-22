@@ -11,14 +11,18 @@ function Navbar() {
 
 const styles = {
   ctn: [
+    "fixed",
+    "top-0",
     "w-full",
     "flex",
     "items-center",
     "justify-start",
-    "py-4",
+    "pt-4",
     "px-1",
-    "sm:py-5",
-    "sm:px-2",
+    // "md:pt-2",
+    "md:px-2",
+    "bg-paper",
+    "z-20",
   ],
 };
 
