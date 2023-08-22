@@ -1,4 +1,4 @@
-const depressedQuotes = [
+export const DepressedQuotes = [
     "Please remember that you're capable, brave and loved - even when it feels like you're not.",
     "Do not give the past the power to define your future.",
     "Perhaps you've been assigned this mountain to show others that it can be moved.",
@@ -156,8 +156,3 @@ const depressedQuotes = [
     "Everything will be okay in the end. If it's not okay, it's not the end!",
     "One foot in front of the other. Climb the ladder one step at a time. Believe in yourself, you can do this. The light at the end of the tunnel will come.",
 ]
-
-export const Depressed = {
-    size: depressedQuotes.length,
-    quotes: depressedQuotes
-}

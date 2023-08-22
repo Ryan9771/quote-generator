@@ -1,4 +1,4 @@
-const angerQuotes = [
+export const AngerQuotes = [
     "Smile, breathe, and go slowly.",
     "Trust yourself. You've survived a lot, and you'll survive whatever is coming.",
     "Stress is an ignorant state. It believes that everything is an emergency. Nothing is that important.",
@@ -48,8 +48,3 @@ const angerQuotes = [
     "If you can find a path with no obstacles, it probably doesn't lead anywhere.",
     "The best thing one can do when it is raining, is to let it rain.",
 ];
-
-export const Anger = {
-    size: angerQuotes.length,
-    quotes: angerQuotes
-};

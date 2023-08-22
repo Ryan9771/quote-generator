@@ -1,4 +1,4 @@
-const loveQuotes = [
+export const LoveQuotes = [
     "I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.",
     "The greatest happiness of life is the conviction that we are loved; loved for ourselves, or rather, loved in spite of ourselves.",
     "All, everything that I understand, I only understand because I love.",
@@ -51,8 +51,3 @@ const loveQuotes = [
     "I love that you are my person and I am yours, that whatever door we come to, we will open it together.",
     "I was, and I remain, utterly and completely and totally in love with you.",
 ];
-
-export const Love = {
-    size: loveQuotes.length,
-    quotes: loveQuotes
-};

@@ -1,4 +1,4 @@
-const happyQuotes = [
+export const HappyQuotes = [
     "Happiness cannot be traveled to, owned, earned, worn or consumed. Happiness is the spiritual experience of living every minute with love, grace, and gratitude",
     "Some cause happiness wherever they go; others whenever they go.",
     "Be healthy and take care of yourself, but be happy with the beautiful things that make you, you.",
@@ -40,8 +40,3 @@ const happyQuotes = [
     "You have to grow, you have to be, you have to love yourself unconditionally.",
     "The absence of self-love can never be replaced with the presence of people's love for you.",
 ];
-
-export const Happy = {
-    size: happyQuotes.length,
-    quotes: happyQuotes
-};

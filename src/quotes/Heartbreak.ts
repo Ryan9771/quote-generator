@@ -1,4 +1,4 @@
-const heartbreakQuotes = [
+export const HeartbreakQuotes = [
     "Sometimes, good things fall apart so better things can fall together.",
     "Just because a relationship ends, it doesn't mean it's not worth having.",
     "Someday, it's gonna make sense.",
@@ -98,9 +98,3 @@ const heartbreakQuotes = [
     "In order to truly value loyalty, you must first endure the affliction of betrayal.",
     "Tragedy tears us apart sure, but it's your one chance to recreate yourself. You get to put yourself back together any way you want",
 ];
-
-export const Heartbreak = {
-    size: heartbreakQuotes.length,
-    quotes: heartbreakQuotes
-};
-    

@@ -14,7 +14,7 @@ function ComfortReponse() {
 }
 
 const styles = {
-  ctn: ["flex", "flex-col", "gap-10", "items-center", "mt-24"],
+  ctn: ["flex", "flex-col", "gap-10", "items-center", "mt-24", "justify-start"],
   momIcon: ["h-40", "sm:h-44"],
   comfortQuote: [
     "text-center",

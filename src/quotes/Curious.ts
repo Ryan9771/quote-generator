@@ -1,4 +1,4 @@
-const curiousQuotes = [
+export const CuriousQuotes = [
     "No man ever prayed heartily without learning something.",
     "The highest activity a human being can attain is learning for understanding, because to understand is to be free.",
     "The main part of intellectual education is not the acquisition of facts, but learning how to make facts live.",
@@ -101,8 +101,3 @@ const curiousQuotes = [
     "Study the past if you would define the future.",
     "We must learn to live together as brothers or perish together as fools.",
 ]
-
-export const Curious = {
-    size: curiousQuotes.length,
-    quotes: curiousQuotes
-};

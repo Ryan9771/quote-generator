@@ -1,6 +1,6 @@
 import Home from "./pages/Home";
 import { HashRouter, Routes, Route } from "react-router-dom";
-import Quotes from "./pages/Quotes";
+import Quotes from "./pages/Feelings";
 import Navbar from "./components/navbar/Navbar";
 
 function App() {
