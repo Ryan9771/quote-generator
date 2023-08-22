@@ -2,6 +2,7 @@ import getStyles from "../../Style";
 import { useCallback, useMemo, useState } from "react";
 import { ReactTags, Tag } from "react-tag-autocomplete";
 import ArrowRight from "./ArrowRight";
+import { HashLink } from "react-router-hash-link";
 
 function TextFieldGroup() {
   const [selected, setSelected] = useState<Tag[]>([]);
@@ -41,9 +42,12 @@ function TextFieldGroup() {
         allowBackspace={true}
       />
       {selected.length > 0 && (
-        <div className={getStyles(styles, "arrowIconDiv")}>
+        <HashLink
+          to={`/feelings/${selected[0].label}`}
+          className={getStyles(styles, "arrowIconDiv")}
+        >
           <ArrowRight styling={getStyles(styles, "arrowIcon")} />
-        </div>
+        </HashLink>
       )}
     </div>
   );
