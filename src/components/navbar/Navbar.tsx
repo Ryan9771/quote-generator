@@ -10,7 +10,15 @@ function Navbar() {
 }
 
 const styles = {
-  ctn: ["w-full", "flex", "items-center", "justify-start", "py-3"],
+  ctn: [
+    "w-full",
+    "flex",
+    "items-center",
+    "justify-start",
+    "py-3",
+    "sm:py-5",
+    "sm:px-2",
+  ],
 };
 
 export default Navbar;

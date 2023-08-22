@@ -26,8 +26,8 @@ function HomeLink() {
 
 const styles = {
   ctn: ["flex", "items-center", "gap-2", "cursor-pointer", "hover:scale-105"],
-  icon: ["h-5", "w-5"],
-  text: ["tracking-wide", "font-semibold"],
+  icon: ["h-5", "w-5", "sm:h-6", "sm:w-6"],
+  text: ["tracking-wide", "font-semibold", "sm:text-lg"],
 };
 
 export default HomeLink;
