@@ -15,15 +15,18 @@ function ComfortReponse() {
 
 const styles = {
   ctn: ["flex", "flex-col", "gap-10", "items-center", "mt-24"],
-  momIcon: ["h-40"],
+  momIcon: ["h-40", "sm:h-44"],
   comfortQuote: [
     "text-center",
     "bg-darkerGreen",
-    "px-5",
+    "px-4",
     "py-3",
     "text-white",
-    "rounded-md",
+    "rounded-lg",
     "w-80",
+    "sm:shadow-md",
+    "sm:text-lg",
+    "sm:w-96",
   ],
 };
 
