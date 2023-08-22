@@ -1,6 +1,6 @@
 import getStyles from "../Style";
 import mom from "../assets/images/mom.svg";
-import TextFieldGroup from "../components/Home/TextfieldGroup";
+import TextFieldGroup from "../components/home/TextfieldGroup";
 
 function Home() {
   return (

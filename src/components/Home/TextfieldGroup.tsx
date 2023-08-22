@@ -1,8 +1,8 @@
 import getStyles from "../../Style";
 import { useCallback, useMemo, useState } from "react";
 import { ReactTags, Tag } from "react-tag-autocomplete";
-import ArrowRight from "./ArrowRight";
 import { HashLink } from "react-router-hash-link";
+import ArrowRight from "./ArrowRight";
 
 function TextFieldGroup() {
   const [selected, setSelected] = useState<Tag[]>([]);

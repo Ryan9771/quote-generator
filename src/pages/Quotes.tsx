@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import ComfortReponse from "../components/Feelings/ComfortResponse";
+import ComfortReponse from "../components/feelings/ComfortResponse";
 
 function Quotes() {
   // const { emotion } = useParams();
