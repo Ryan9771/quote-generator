@@ -52,9 +52,13 @@ const styles = {
     "flex",
     "flex-col",
     "items-center",
+    "pb-4",
     "gap-10",
-    "h-full",
-    "overflow-y-scroll",
+    "md:gap-18",
+    "md:max-h-full",
+    "md:overflow-y-scroll",
+    "md:px-5",
+    "md:snap-y",
   ],
 };
 

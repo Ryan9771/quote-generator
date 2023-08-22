@@ -14,19 +14,29 @@ function ComfortReponse() {
 }
 
 const styles = {
-  ctn: ["flex", "flex-col", "gap-10", "items-center", "mt-24", "justify-start"],
-  momIcon: ["h-40", "sm:h-44"],
+  ctn: [
+    "flex",
+    "flex-col",
+    "gap-10",
+    "items-center",
+    "mt-24",
+    "md:mt-[-60px]",
+    "justify-start",
+    "md:mt-0",
+    "md:justify-center",
+  ],
+  momIcon: ["h-48", "sm:h-52"],
   comfortQuote: [
     "text-center",
     "bg-darkerGreen",
     "px-4",
-    "py-3",
+    "py-2",
     "text-white",
     "rounded-lg",
     "w-80",
-    "sm:shadow-md",
-    "sm:text-lg",
-    "sm:w-96",
+    "md:shadow-md",
+    "md:text-lg",
+    "md:w-96",
   ],
 };
 

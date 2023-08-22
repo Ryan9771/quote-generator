@@ -21,12 +21,15 @@ function Quote({ quote, index }: Props) {
 const styles = {
   ctn: [
     "w-80",
+    "md:w-[360px]",
     "px-3",
     "py-2",
     "rounded-lg",
     "shadow-sm",
-    "font-medium",
+    "font-normal",
     "text-center",
+    "md:snap-start",
+    "md:text-lg",
   ],
 };
 

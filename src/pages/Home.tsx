@@ -18,7 +18,10 @@ const styles = {
   ctn: [
     "flex",
     "flex-col",
-    "justify-center",
+    "mt-24",
+    "sm:mt-0",
+    "justify-start",
+    "sm:justify-center",
     "items-center",
     "gap-14",
     "sm:gap-[55px]",
