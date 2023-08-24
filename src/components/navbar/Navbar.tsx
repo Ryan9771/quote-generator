@@ -19,10 +19,10 @@ const styles = {
     "justify-start",
     "pt-4",
     "px-1",
-    // "md:pt-2",
     "md:px-2",
     "bg-paper",
     "z-20",
+    "trans",
   ],
 };
 

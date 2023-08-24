@@ -45,7 +45,7 @@ function TextFieldGroup() {
 }
 
 const styles = {
-  ctn: ["relative"],
+  ctn: ["relative", "trans"],
   arrowIcon: ["h-5", "w-5", "fill-white"],
   arrowIconDiv: [
     "bg-darkerGreen",
@@ -65,6 +65,7 @@ const styles = {
     "sm:left-60",
     "bottom-[-60px]",
     "left-20",
+    "trans",
   ],
 };
 

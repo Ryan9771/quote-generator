@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .trans {
+    @apply transition duration-200;
+  } 
+}
+
 .react-tags {
   position: relative;
   padding: 0.5rem 2rem;

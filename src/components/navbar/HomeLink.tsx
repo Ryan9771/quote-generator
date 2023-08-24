@@ -25,7 +25,14 @@ function HomeLink() {
 }
 
 const styles = {
-  ctn: ["flex", "items-center", "gap-2", "cursor-pointer", "hover:scale-105"],
+  ctn: [
+    "flex",
+    "items-center",
+    "gap-2",
+    "cursor-pointer",
+    "hover:scale-105",
+    "trans",
+  ],
   icon: ["h-5", "w-5"],
   text: ["tracking-wide", "font-semibold", "md:text-lg", "md:scale-105"],
 };

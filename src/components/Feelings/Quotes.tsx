@@ -42,6 +42,7 @@ function Quotes() {
     <div className={getStyles(styles, "ctn")}>
       {[...quotes]
         .sort(() => Math.random() - 0.5)
+        .slice(0, 30)
         .map((quote, index) => (
           <Quote key={index} index={index} quote={quote} />
         ))}
@@ -61,6 +62,7 @@ const styles = {
     "md:overflow-y-scroll",
     "md:px-5",
     "md:snap-y",
+    "trans",
   ],
 };
 

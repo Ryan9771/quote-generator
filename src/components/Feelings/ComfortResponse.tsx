@@ -37,6 +37,9 @@ const styles = {
     "md:shadow-md",
     "md:text-lg",
     "md:w-96",
+    "hover:scale-[102%]",
+    "cursor-pointer",
+    "trans",
   ],
 };
 
