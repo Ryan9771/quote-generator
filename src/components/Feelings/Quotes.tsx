@@ -17,22 +17,22 @@ function Quotes() {
 
   useEffect(() => {
     switch (emotion) {
-      case "angry":
+      case "Angry":
         setQuotes(AngerQuotes);
         break;
-      case "curious":
+      case "Curious":
         setQuotes(CuriousQuotes);
         break;
-      case "depressed":
+      case "Depressed":
         setQuotes(DepressedQuotes);
         break;
-      case "happy":
+      case "Happy":
         setQuotes(HappyQuotes);
         break;
-      case "heartbreak":
+      case "Heartbroken":
         setQuotes(HeartbreakQuotes);
         break;
-      case "love":
+      case "In love":
         setQuotes(LoveQuotes);
         break;
     }
@@ -52,7 +52,6 @@ const styles = {
     "flex",
     "flex-col",
     "items-center",
-    // "md:pt-32",
     "pb-4",
     "gap-10",
     "md:gap-18",

@@ -1,22 +1,12 @@
 import getStyles from "../../Style";
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useState } from "react";
 import { ReactTags, Tag } from "react-tag-autocomplete";
 import { HashLink } from "react-router-hash-link";
 import ArrowRight from "./ArrowRight";
+import { suggestions } from "../../quotes/Emotions";
 
 function TextFieldGroup() {
   const [selected, setSelected] = useState<Tag[]>([]);
-
-  // TODO: Put this in a separate file
-  const suggestions = useMemo(
-    () => [
-      { value: 1, label: "happy" },
-      { value: 2, label: "sad" },
-      { value: 3, label: "angry" },
-      { value: 4, label: "excited" },
-    ],
-    []
-  );
 
   const onAdd = useCallback(
     (tag: any) => {
@@ -32,7 +22,7 @@ function TextFieldGroup() {
   return (
     <div className={getStyles(styles, "ctn")}>
       <ReactTags
-        placeholderText={selected.length > 0 ? "" : "Type an emotion"}
+        placeholderText={selected.length > 0 ? "" : "Type how you feel"}
         suggestions={suggestions}
         selected={selected}
         onAdd={onAdd}

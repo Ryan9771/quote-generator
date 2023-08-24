@@ -19,6 +19,10 @@
   align-items: center;
 }
 
+.react-tags.is-active {
+  border: 3px solid #5673BA;
+}
+
 .react-tags.is-disabled {
   opacity: 0.75;
   background-color: #eaeef2;
@@ -118,7 +122,7 @@
   /* Negate the border width on the container */
   left: -2px;
   right: -2px;
-  max-height: 12.5rem;
+  max-height: 8rem;
   overflow-y: auto;
   background: #ffffff;
   border: 1px solid #afb8c1;
