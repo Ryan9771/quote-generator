@@ -40,9 +40,11 @@ function Quotes() {
 
   return (
     <div className={getStyles(styles, "ctn")}>
-      {quotes.map((quote, index) => (
-        <Quote key={index} index={index} quote={quote} />
-      ))}
+      {[...quotes]
+        .sort(() => Math.random() - 0.5)
+        .map((quote, index) => (
+          <Quote key={index} index={index} quote={quote} />
+        ))}
     </div>
   );
 }

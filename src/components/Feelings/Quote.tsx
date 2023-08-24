@@ -13,7 +13,9 @@ function Quote({ quote, index }: Props) {
         (index % 2 === 0 ? "bg-darkerBlue text-white" : "bg-brown")
       }
     >
-      {quote}
+      <b className="text-lg">“ </b>
+      {`${quote}`}
+      <b className="text-lg"> ”</b>
     </div>
   );
 }
@@ -28,8 +30,10 @@ const styles = {
     "shadow-md",
     "font-normal",
     "text-center",
+    "md:px-4",
     "md:snap-start",
-    "md:text-lg",
+    "md:text-base",
+    "md:font-normal",
   ],
 };
 

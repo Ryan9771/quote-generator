@@ -132,8 +132,6 @@ export const DepressedQuotes = [
     "You deserve as much love and support as anybody else.",
     "Being imperfect doesn't mean you're unworthy. It means you're human.",
     "As Abraham Lincoln once said, if we magnified our successes as much as we magnified our disappointments, we'd all be much happier.",
-    "Supportive, encouraging quotes - Like we've said, each day, The Depression Project emails over 50,000 people a supportive, encouraging quote to help them through their day - and this workbook includes some of the most popular ones!",
-    "Cognitive behavioural therapy-based, fill-in-the-blank statements - This workbook's quotes are accompanied by CBT-based, fill-in-the-blank statements as well - to help you create your very own hopeful, uplifting, re-assuring reminders.",
     "Never make a permanent decision based on a temporary emotion.",
     "When I'm feeling depressed and anxious I tend to withdraw and isolate myself ... I can't reach out to those I love and feel worthless and a burden to them. When this happens, I then try to remember: 'your depression is trying to get you alone and then it will try to kill you'. This helps me remember that's it's my depression that's lying to me and keeping me from reaching out to those I love and who love me.",
     "Surviving is an achievement in and of itself. We've got to give ourselves more credit.",
