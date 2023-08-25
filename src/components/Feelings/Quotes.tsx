@@ -13,8 +13,6 @@ function Quotes() {
   const { emotion } = useParams();
   const [quotes, setQuotes] = useState<string[]>([]);
 
-  // TODO: Define callback shuffle function
-
   useEffect(() => {
     switch (emotion) {
       case "Angry":
