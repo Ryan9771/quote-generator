@@ -7,6 +7,7 @@ import { DepressedQuotes } from "../../quotes/Depressed";
 import { HappyQuotes } from "../../quotes/Happy";
 import { HeartbreakQuotes } from "../../quotes/Heartbreak";
 import { LoveQuotes } from "../../quotes/Love";
+import { SadQuotes } from "../../quotes/Sad";
 import Quote from "./Quote";
 
 function Quotes() {
@@ -23,6 +24,9 @@ function Quotes() {
         break;
       case "Depressed":
         setQuotes(DepressedQuotes);
+        break;
+      case "Sad":
+        setQuotes(SadQuotes);
         break;
       case "Happy":
         setQuotes(HappyQuotes);
@@ -59,7 +63,6 @@ const styles = {
     "md:h-5/6",
     "md:overflow-y-scroll",
     "md:px-5",
-    "md:snap-y",
     "trans",
   ],
 };

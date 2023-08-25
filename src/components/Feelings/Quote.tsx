@@ -33,7 +33,6 @@ const styles = {
     "cursor-pointer",
     "hover:scale-[102%]",
     "md:px-4",
-    "md:snap-start",
     "md:text-base",
     "md:font-normal",
     "trans",
