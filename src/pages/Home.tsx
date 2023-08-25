@@ -1,5 +1,5 @@
 import getStyles from "../Style";
-import mom from "../assets/images/mom.svg";
+import mom from "/mom.svg";
 import TextFieldGroup from "../components/home/TextfieldGroup";
 
 function Home() {
