@@ -1,12 +1,15 @@
 import getStyles from "../Style";
 import ComfortReponse from "../components/feelings/ComfortResponse";
 import Quotes from "../components/feelings/Quotes";
+import { useParams } from "react-router-dom";
 
 function Feelings() {
+  const { emotion } = useParams();
+
   return (
     <div className={getStyles(styles, "ctn")}>
-      <ComfortReponse />
-      <Quotes />
+      <ComfortReponse emotion={emotion ?? ""} />
+      <Quotes emotion={emotion ?? ""} />
     </div>
   );
 }

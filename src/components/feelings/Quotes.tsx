@@ -1,6 +1,5 @@
 import getStyles from "../../Style";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
 import { AngerQuotes } from "../../quotes/Anger";
 import { CuriousQuotes } from "../../quotes/Curious";
 import { DepressedQuotes } from "../../quotes/Depressed";
@@ -10,8 +9,11 @@ import { LoveQuotes } from "../../quotes/Love";
 import { SadQuotes } from "../../quotes/Sad";
 import Quote from "./Quote";
 
-function Quotes() {
-  const { emotion } = useParams();
+interface Props {
+  emotion: string;
+}
+
+function Quotes({ emotion }: Props) {
   const [quotes, setQuotes] = useState<string[]>([]);
 
   useEffect(() => {

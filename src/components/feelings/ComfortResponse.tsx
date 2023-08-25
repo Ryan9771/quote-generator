@@ -1,13 +1,17 @@
 import getStyles from "../../Style";
 import mom from "/mom.svg";
+import { getComfortQuote } from "./ComfortQuotes";
 
-function ComfortReponse() {
+interface Props {
+  emotion: string;
+}
+
+function ComfortReponse({ emotion }: Props) {
   return (
     <div className={getStyles(styles, "ctn")}>
       <img src={mom} className={getStyles(styles, "momIcon")} alt="mom" />
       <p className={getStyles(styles, "comfortQuote")}>
-        "Don't worry, we've all been there. Find comfort in these quotes from
-        others in the same boat"
+        {getComfortQuote(emotion)}
       </p>
     </div>
   );
