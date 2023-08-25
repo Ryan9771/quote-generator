@@ -44,7 +44,7 @@ function Quotes() {
     <div className={getStyles(styles, "ctn")}>
       {[...quotes]
         .sort(() => Math.random() - 0.5)
-        .slice(0, 30)
+        .slice(0, 40)
         .map((quote, index) => (
           <Quote key={index} index={index} quote={quote} />
         ))}
